@@ -45,13 +45,13 @@
             <div class="producto_image">
               <img src="images/box2.png" alt="">
             </div>
-            <h3>Producto</h3>
+            <h3>Gatito</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veritatis omnis perspiciatis enim ipsam quam impedit facilis.</p>
           </div>
         </div>
         <div class="col-12 col-md-8 py-3">
           <div class="form_pago">
-            <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="POST">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
               <div class="form-group">
                 <label for="name">Nombre</label>
                 <input type="text" class="form-control" placeholder="Nombre" name="first_name">
@@ -64,27 +64,14 @@
                 <label for="phone">Teléfono</label>
                 <input type="text" class="form-control" placeholder="Teléfono" name="nigth_phone_a">
               </div>
-                <input type="hidden" name="cmd" value="_xclick">
-                <input type="hidden" name="business" value="juance46194-facilitator@gmail.com">
-                <input type="hidden" name="item_name" value="Gatitos">
-                <input type="hidden" name="currency_code" value="USD">
-                <input type="hidden" name="amount" value="20.00">
-                <input type="hidden" name="return" value="file:///Users/tinizhanayquitojuan/Documents/proyectos/brand/exito.html">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="WEWGVFSV7DRAU">
               <button type="submit" class="btn_pagar" class="submit" >Confirmar Pago</button>
             </form>
-            <!-- https://www.google.com/
-            ?
-            name=juan+tinizhanay
-            &
-            email=juan.tinizhanay%40outlook.com
-            &
-            phone=09542442442 -->
-          </div>
+          </div>            
         </div>
       </div>
     </div>
-    
-
     <!-- footer  -->
     <div class="footer">
       <div class="container-fluid">

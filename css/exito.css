@@ -1,0 +1,19 @@
+/*----------  exito  ----------*/
+
+body{
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+}
+
+.content_paypal h3{
+  padding-top: 15px;
+}
+
+.content_paypal a{
+  color: #7ACC2D;
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+:root {
+  --green-color: #7ACC2D; 
+}
+
+html,body{
+  margin: 0;
+  font-size: 12px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav{
+  background: var(--green-color);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_options{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul{
+  display: flex;
+  margin: 0;
+}
+.nav ul li{
+  list-style: none;
+  padding-left: 10px;
+  
+}
+.nav li a{
+  color: black;
+  text-decoration: none;
+
+}
+.nav li a:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.main_section{
+  padding: 8% 8% 10% 8%;
+  text-align: center;
+}
+
+.products h1{
+  font-size: 25px
+}
+
+.products{
+  background-image: url("../images/curve.png");
+  background-size: cover;
+  background-position: center top;
+}
+
+.content{
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #666;
+  box-shadow: 2px 12px 15px 1px rgba(0, 0, 0, 0.2);
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
+
+.content{
+  background: white;
+  margin-top: -80px;
+}
+
+.main_buton{
+  background: var(--green-color);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border: 0px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.main_buton:hover{
+  background:#6b9c3d;
+}
+
+.tarjeta{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  text-align: center;
+  padding: 12px;
+}
+.item h4{
+  padding:8px 0;
+  margin: 0;
+}
+
+.opiniones h2{
+  text-align: center;
+}
+
+.user{
+  box-shadow: 2px 12px 15px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+
+}
+
+.user img{
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.user_info{
+  padding: 10px 4px;
+  text-align: center;
+}
+
+.footer{
+  height: 40px;
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center
+}
+.footer_terminos p{
+  margin: 0;
+}
+
+.footer_contact{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_contact a{
+  color: #7ACC2D;
+}
+
+/*----------  productos  ----------*/
+
+.productos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+
+
+/*----------  ventas  ----------*/
+
+.producto_venta , .form_pago{
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.producto_image{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn_pagar{
+  background: var(--green-color);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: 0px;
+}
+
+.btn_pagar{
+  font-size: 15px;
+}
+
+/*----------  media queries  ----------*/
+
+@media(max-width:768px){
+  .main_section h1{
+    font-size: 25px;
+  }
+  .product{
+    height: 650px;
+  }
+  .content{
+    margin-top: -30px;
+  }
+  .products h1{
+    font-size: 17px
+  }
+  .tarjeta{
+    justify-content: flex-start;
+  }
+  
+  /*----------  productos  ----------*/
+  .productos{
+    padding: 0;
+  }
+  
+}
